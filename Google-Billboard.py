@@ -9,7 +9,7 @@ def isPrime(n): #Simple Prime Checker O(sqrt(n)) Time Complexity
     have some initial if statements like if (n == 1) return False; however since I only care
     about a 10 digit prime in consecutive digits of e there should never be a point were it 
     calculates any n smaller than 10¹⁰. also since e starts with a 2, 1 wont even be a concern if 
-    somenone wanted to calculate the first single digit prime. so do not be alarmed if this method 
+    somenone wanted to calculate the first single digit prime. So do not be alarmed if this method 
     does not follow conventions.
     '''
     i = int(n**(0.5)) 
