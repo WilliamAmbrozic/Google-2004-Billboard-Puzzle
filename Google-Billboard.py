@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 #William Ambrozic 2018
 from decimal import *
 
