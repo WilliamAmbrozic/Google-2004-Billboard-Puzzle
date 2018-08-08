@@ -29,7 +29,7 @@ def calc(c):
     for n in range(0, getcontext().prec):
         if len(e) >= c and isPrime(int(e)):
             return e;
-        eMac += (Decimal(1)/Factorial(n)) #Calculating with the Maclaurin Series for y = eˣ | x=1
+        eMac += (Decimal(1)/Factorial(n)) #Calculating with the Maclaurin Expansion for y = eˣ | x=1
         eBrother += Decimal(2*n+2)/Factorial(2*n+1) #Calculating with the Brothers Formulae
         try:
             if str(eMac)[n] == str(eBrother)[n] and n-20 > 0:
