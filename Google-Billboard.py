@@ -1,7 +1,7 @@
 #William Ambrozic 2018
 from decimal import *
 
-def isPrime(n): #Simple Prime Checker O(sqrt(n))
+def isPrime(n): #Simple Prime Checker O(sqrt(n)) Time Complexity
     i = int(n**(0.5))
     for x in range(2,i):
         if (n % x == 0):
