@@ -2,7 +2,15 @@
 from decimal import *
 
 def isPrime(n): #Simple Prime Checker O(sqrt(n)) Time Complexity
-    i = int(n**(0.5))
+    '''To check if a number is prime all you need to know is the floor of the square root
+    and iterate whilst checking if there are any divisors other than 1. Normally you would 
+    have some initial if statements like if (n == 1) return False; however since I only care
+    about a 10 digit prime in consecutive digits of e there should never be a point were it 
+    calculates any n smaller than 10¹⁰. also since e starts with a 2, 1 wont even be a concern if 
+    somenone wanted to calculate the first single digit prime. so do not be alarmed if this method 
+    does not follow conventions.
+    '''
+    i = int(n**(0.5)) 
     for x in range(2,i):
         if (n % x == 0):
             return False
