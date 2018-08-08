@@ -42,6 +42,6 @@ def calc(c):
     return 0
 
 def main():
-    getcontext().prec = 150 #Example percision for the digits of e (150 is all you need to get the answer)
+    getcontext().prec = 150 #Example precision for the digits of e (150 is all you need to get the answer)
     print(calc(10))
 main()
