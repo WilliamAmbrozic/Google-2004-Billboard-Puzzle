@@ -3,7 +3,7 @@
 
 >"Mysterious banners at a Cambridge, Mass., subway stop have commuters scratching their heads. The signs, challenging passers-by to solve a complicated math problem, are actually a cryptic pitch by Google, which is looking to hire more brainy engineers. Andrea Shea reports. The message at Harvard Square also appears on a billboard in California's Silicon Valley, but Google's name is nowhere to be found on the ads. It simply states: {first 10-digit prime found in consecutive digits of e}.com In case you're wondering -- or forgot -- e is the base of the natural system of logarithms, having a numerical value of about 2.71828 (though the number goes on forever). The correct answer to the banner problem leads to a Web site that poses yet another puzzle. Eventually, the determined problem-solver lands at a Google Web page that asks the smart, or lucky, few for a resume" ([npr](http://media.npr.org/programs/morning/features/2004/sep/googlead/billboard_large.jpg) 2004).
 
-# About the Program
+## About the Program
 The program uses two infinite series that converge to e:
 
 #1: [The Maclaurin Expansion of y = eˣ](http://blogs.ubc.ca/infiniteseriesmodule/units/unit-3-power-series/taylor-series/maclaurin-expansion-of-ex/) | x = 1: {<img align="center" src="http://wiki.ubc.ca/images/math/8/d/a/8dac8d1875ec09d0a777888da4622f30.png" width="300"> }
