@@ -37,7 +37,7 @@ def calc(c):
                     e = e[1:] #removing first digit in search if we passed the desired length of prime
                 e += str(eMac)[n-20] #adding next digit of e
         except IndexError: #an IndexError here implies the two digits are not equal becuase one or both are null
-                           #I only care when they are equal
+                           #I only care when they are equal so any IndexError will be thrown
             continue
     return 0
 
