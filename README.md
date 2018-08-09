@@ -1,5 +1,5 @@
 # Google 2004 Billboard Puzzle
-<img align="right" src="http://media.npr.org/programs/morning/features/2004/sep/googlead/billboard_large.jpg" width="400">
+<img align="right" src="http://media.npr.org/programs/morning/features/2004/sep/googlead/billboard_large.jpg" width="200">
 
 >"Mysterious banners at a Cambridge, Mass., subway stop have commuters scratching their heads. The signs, challenging passers-by to solve a complicated math problem, are actually a cryptic pitch by Google, which is looking to hire more brainy engineers. Andrea Shea reports. The message at Harvard Square also appears on a billboard in California's Silicon Valley, but Google's name is nowhere to be found on the ads. It simply states: {first 10-digit prime found in consecutive digits of e}.com In case you're wondering -- or forgot -- e is the base of the natural system of logarithms, having a numerical value of about 2.71828 (though the number goes on forever). The correct answer to the banner problem leads to a Web site that poses yet another puzzle. Eventually, the determined problem-solver lands at a Google Web page that asks the smart, or lucky, few for a resume" ([npr](https://www.npr.org/templates/story/story.php?storyId=3916173) 2004).
 
