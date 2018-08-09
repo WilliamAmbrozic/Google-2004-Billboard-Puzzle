@@ -14,7 +14,7 @@ def isPrime(n): #Simple Prime Checker O(sqrt(n)) Time Complexity
     '''
     i = int(n**(0.5)) 
     for x in range(2,i):
-        if (n % x == 0):
+        if n % x == 0:
             return False
     return True
 
@@ -25,11 +25,11 @@ def Factorial(n): #Simple Calculation
     return f
 
 def calc(c):
-    eMac, eBrother, e, n = Decimal(0.00), Decimal(0.00), "2", 0
+    eMac, eBrother, e = Decimal(0.00), Decimal(0.00), "2"
     for n in range(0, getcontext().prec):
         if len(e) >= c and isPrime(int(e)):
-            return e;
-        eMac += (Decimal(1)/Factorial(n)) #Calculating with the Maclaurin Expansion for y = eˣ | x=1
+            return e
+        eMac += Decimal(1)/Factorial(n) #Calculating with the Maclaurin Expansion for y = eˣ | x=1
         eBrother += Decimal(2*n+2)/Factorial(2*n+1) #Calculating with the Brothers Formulae
         try:
             if str(eMac)[n] == str(eBrother)[n] and n-20 > 0:
@@ -44,4 +44,5 @@ def calc(c):
 def main():
     getcontext().prec = 150 #Example precision for the digits of e (150 is all you need to get the answer)
     print(calc(10))
+ 
 main()
