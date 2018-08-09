@@ -14,4 +14,4 @@ The program simply calculates both series and conflates the two into one value f
 
 From this program I figured out that the answer is: [7427466391.com](7427466391.com) (does not redirect anymore)
 
-Check for yourself by running the program (quickly check [here](https://www.tutorialspoint.com/execute_python_online.php))
+Check for yourself by running the program (quickly check by pasting the .py file [here](https://www.tutorialspoint.com/execute_python_online.php))
