@@ -26,7 +26,7 @@ def Factorial(n): #Simple Calculation
 
 def calc(c):
     eMac, eBrother, e = Decimal(0.00), Decimal(0.00), "2"
-    for n in range(getcontext().prec):
+    for n in range(0, getcontext().prec):
         if len(e) >= c and isPrime(int(e)):
             return e
         eMac += Decimal(1)/Factorial(n) #Calculating with the Maclaurin Expansion for y = eˣ | x=1
