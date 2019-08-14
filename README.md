@@ -16,7 +16,7 @@ From this program I figured out that the answer is: [7427466391.com](7427466391.
 
 Check for yourself by running the program (quickly check by pasting the contents of the .py file [here](https://www.tutorialspoint.com/execute_python_online.php))
 
-## Find Me <img src="https://imgur.com/download/HT8IjZ5" width="25"> 
+## Find Me <img src="https://imgur.com/download/FpDFVjy" width="25"> 
 
 - [Youtube](https://www.youtube.com/channel/UCL-VushY6SO0ofPTZ8iB3ag)
 - [Instagram](https://www.instagram.com/williamambrozic)
