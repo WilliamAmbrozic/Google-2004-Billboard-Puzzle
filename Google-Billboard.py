@@ -18,7 +18,7 @@ def isPrime(n): #Simple Prime Checker O(sqrt(n)) Time Complexity
             return False
     return True
 
-def Factorial(n): #Simple Calculation
+def factorial(n): #Simple Calculation
     f = Decimal(1)
     for x in range(1,n+1):
         f *= Decimal(x)
@@ -29,8 +29,8 @@ def calc(c):
     for n in range(0, getcontext().prec):
         if len(e) >= c and isPrime(int(e)):
             return e
-        eMac += Decimal(1)/Factorial(n) #Calculating with the Maclaurin Expansion for y = eˣ | x=1
-        eBrother += Decimal(2*n+2)/Factorial(2*n+1) #Calculating with the Brothers Formulae
+        eMac += Decimal(1)/factorial(n) #Calculating with the Maclaurin Expansion for y = eˣ | x=1
+        eBrother += Decimal(2*n+2)/factorial(2*n+1) #Calculating with the Brothers Formulae
         try:
             if str(eMac)[n] == str(eBrother)[n] and n-20 > 0:
                 if len(e) >= c:
